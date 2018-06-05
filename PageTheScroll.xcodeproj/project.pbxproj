@@ -10,10 +10,10 @@
 		BEF5D83F20C4D05300520AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5D83E20C4D05300520AE3 /* AppDelegate.swift */; };
 		BEF5D84120C4D05300520AE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5D84020C4D05300520AE3 /* ViewController.swift */; };
 		BEF5D84420C4D05300520AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF5D84220C4D05300520AE3 /* Main.storyboard */; };
-		BEF5D84620C4D05300520AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF5D84520C4D05300520AE3 /* Assets.xcassets */; };
 		BEF5D84920C4D05300520AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF5D84720C4D05300520AE3 /* LaunchScreen.storyboard */; };
 		BEF5D85420C4D05300520AE3 /* PageTheScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5D85320C4D05300520AE3 /* PageTheScrollTests.swift */; };
 		BEF5D85F20C4D05300520AE3 /* PageTheScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5D85E20C4D05300520AE3 /* PageTheScrollUITests.swift */; };
+		BEF5D86D20C4D2E400520AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF5D86C20C4D2E400520AE3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		BEF5D83E20C4D05300520AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF5D84020C4D05300520AE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEF5D84320C4D05300520AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEF5D84520C4D05300520AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF5D84820C4D05300520AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEF5D84A20C4D05300520AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF5D84F20C4D05300520AE3 /* PageTheScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageTheScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		BEF5D85A20C4D05300520AE3 /* PageTheScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageTheScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5D85E20C4D05300520AE3 /* PageTheScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTheScrollUITests.swift; sourceTree = "<group>"; };
 		BEF5D86020C4D05300520AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF5D86C20C4D2E400520AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 				BEF5D83E20C4D05300520AE3 /* AppDelegate.swift */,
 				BEF5D84020C4D05300520AE3 /* ViewController.swift */,
 				BEF5D84220C4D05300520AE3 /* Main.storyboard */,
-				BEF5D84520C4D05300520AE3 /* Assets.xcassets */,
 				BEF5D84720C4D05300520AE3 /* LaunchScreen.storyboard */,
 				BEF5D84A20C4D05300520AE3 /* Info.plist */,
+				BEF5D86C20C4D2E400520AE3 /* Assets.xcassets */,
 			);
 			path = PageTheScroll;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF5D84920C4D05300520AE3 /* LaunchScreen.storyboard in Resources */,
-				BEF5D84620C4D05300520AE3 /* Assets.xcassets in Resources */,
+				BEF5D86D20C4D2E400520AE3 /* Assets.xcassets in Resources */,
 				BEF5D84420C4D05300520AE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
